@@ -59,7 +59,7 @@
         <maven.deploy.skip>false</maven.deploy.skip>
         <shade.package>org.apache.shardingsphere.dependencies</shade.package>
         
-        <guava.version>30.0-jre</guava.version>
+        <guava.version>32.0.0-jre</guava.version>
         <commons-lang3.version>3.8</commons-lang3.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-codec.version>1.15</commons-codec.version>
@@ -785,7 +785,7 @@
                     <configuration>
                         <trimStackTrace>false</trimStackTrace>
                         <excludes>
-                            <exclude />
+                            <exclude/>
                         </excludes>
                     </configuration>
                 </plugin>
@@ -834,7 +834,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -846,7 +846,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
@@ -1310,7 +1310,7 @@
                             <configuration>
                                 <trimStackTrace>false</trimStackTrace>
                                 <excludes>
-                                    <exclude />
+                                    <exclude/>
                                 </excludes>
                                 <argLine>--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED</argLine>
                             </configuration>
