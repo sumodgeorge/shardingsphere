@@ -90,7 +90,7 @@
         
         <bytebuddy.version>1.12.10</bytebuddy.version>
         <prometheus.version>0.11.0</prometheus.version>
-        <prometheus.jmx.version>0.16.1</prometheus.jmx.version>
+        <prometheus.jmx.version>0.17.1</prometheus.jmx.version>
         <opentracing.version>0.31.0</opentracing.version>
         <jaeger-client.version>0.31.0</jaeger-client.version>
         <zipkin-brave.version>5.13.2</zipkin-brave.version>
@@ -785,7 +785,7 @@
                     <configuration>
                         <trimStackTrace>false</trimStackTrace>
                         <excludes>
-                            <exclude />
+                            <exclude/>
                         </excludes>
                     </configuration>
                 </plugin>
@@ -834,7 +834,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -846,7 +846,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
@@ -1310,7 +1310,7 @@
                             <configuration>
                                 <trimStackTrace>false</trimStackTrace>
                                 <excludes>
-                                    <exclude />
+                                    <exclude/>
                                 </excludes>
                                 <argLine>--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED</argLine>
                             </configuration>
