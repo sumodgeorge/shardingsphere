@@ -103,7 +103,7 @@
         
         <lombok.version>1.18.20</lombok.version>
         
-        <postgresql.version>42.3.3</postgresql.version>
+        <postgresql.version>42.3.9</postgresql.version>
         <opengauss.version>3.0.0</opengauss.version>
         <mysql-connector-java.version>5.1.47</mysql-connector-java.version>
         <mariadb-java-client.version>2.4.2</mariadb-java-client.version>
@@ -785,7 +785,7 @@
                     <configuration>
                         <trimStackTrace>false</trimStackTrace>
                         <excludes>
-                            <exclude />
+                            <exclude/>
                         </excludes>
                     </configuration>
                 </plugin>
@@ -834,7 +834,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -846,7 +846,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
@@ -1310,7 +1310,7 @@
                             <configuration>
                                 <trimStackTrace>false</trimStackTrace>
                                 <excludes>
-                                    <exclude />
+                                    <exclude/>
                                 </excludes>
                                 <argLine>--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED</argLine>
                             </configuration>
