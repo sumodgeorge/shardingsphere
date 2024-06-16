@@ -80,7 +80,7 @@
         <javax.transaction.version>1.1</javax.transaction.version>
         
         <zookeeper.version>3.6.0</zookeeper.version>
-        <curator.version>5.1.0</curator.version>
+        <curator.version>5.7.0</curator.version>
         <jetcd.version>0.5.0</jetcd.version>
         
         <elasticjob.version>3.0.1</elasticjob.version>
@@ -785,7 +785,7 @@
                     <configuration>
                         <trimStackTrace>false</trimStackTrace>
                         <excludes>
-                            <exclude />
+                            <exclude/>
                         </excludes>
                     </configuration>
                 </plugin>
@@ -834,7 +834,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                                 <pluginExecution>
@@ -846,7 +846,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore />
+                                        <ignore/>
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
@@ -1310,7 +1310,7 @@
                             <configuration>
                                 <trimStackTrace>false</trimStackTrace>
                                 <excludes>
-                                    <exclude />
+                                    <exclude/>
                                 </excludes>
                                 <argLine>--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED</argLine>
                             </configuration>
