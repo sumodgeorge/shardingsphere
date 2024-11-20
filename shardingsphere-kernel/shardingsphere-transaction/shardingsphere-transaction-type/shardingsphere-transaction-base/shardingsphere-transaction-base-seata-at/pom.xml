@@ -28,7 +28,7 @@
     <name>${project.artifactId}</name>
     
     <properties>
-        <seata.version>1.4.2</seata.version>
+        <seata.version>1.6.0</seata.version>
     </properties>
     
     <dependencies>
